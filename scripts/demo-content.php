@@ -68,6 +68,11 @@ foreach ( $expected as $id => $hash ) { if ( hash( 'sha256', get_post_field( 'po
 foreach ( array( 'primary' => array( 'services', 'news', 'about', 'examples' ), 'footer' => array( 'about', 'accessibility', 'examples' ) ) as $location => $keys ) {
 	$menu = wp_get_nav_menu_object( 'Civic Hearth ' . $location );
 	$menu_id = $menu ? $menu->term_id : wp_create_nav_menu( 'Civic Hearth ' . $location );
+	foreach ( get_objects_in_term( $menu_id, 'nav_menu' ) as $item_id ) {
+		if ( 'page' === get_post_meta( $item_id, '_menu_item_object', true ) && 'post_type' === get_post_meta( $item_id, '_menu_item_type', true ) && '0' === get_post_meta( $item_id, '_menu_item_object_id', true ) && '' === get_post_field( 'post_title', $item_id ) ) {
+			wp_delete_post( $item_id, true );
+		}
+	}
 	$items = wp_get_nav_menu_items( $menu_id );
 	foreach ( $keys as $key ) {
 		$found = false;

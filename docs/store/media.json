@@ -1,0 +1,90 @@
+{
+  "light": {
+    "id": 1189187,
+    "title": "Civic Hearth light preview",
+    "url": "https://r2.gauravtiwari.org/wp-content/uploads/2026/11/civic-hearth-light-preview.png",
+    "mime_type": "image/png",
+    "alt": "Civic Hearth civic homepage with a navy masthead, service search, and popular services",
+    "caption": "",
+    "width": 1200,
+    "height": 900,
+    "parent": 1189180
+  },
+  "dark": {
+    "id": 1189188,
+    "title": "Civic Hearth dark preview",
+    "url": "https://r2.gauravtiwari.org/wp-content/uploads/2026/11/civic-hearth-dark-preview.png",
+    "mime_type": "image/png",
+    "alt": "Civic Hearth homepage in dark appearance with the community teal palette",
+    "caption": "",
+    "width": 1200,
+    "height": 900,
+    "parent": 1189180
+  },
+  "mobile": {
+    "id": 1189275,
+    "title": "Civic Hearth mobile preview",
+    "url": "https://r2.gauravtiwari.org/wp-content/uploads/2026/11/civic-hearth-mobile-preview-updated.png",
+    "mime_type": "image/png",
+    "alt": "Civic Hearth homepage on a 390 pixel wide mobile screen",
+    "caption": "",
+    "width": 390,
+    "height": 844,
+    "parent": 1189180
+  },
+  "directory": {
+    "id": 1189270,
+    "title": "Civic Hearth directory preview",
+    "url": "https://r2.gauravtiwari.org/wp-content/uploads/2026/11/civic-hearth-directory-preview-updated.png",
+    "mime_type": "image/png",
+    "alt": "Civic Hearth service directory with editable category cards",
+    "caption": "",
+    "width": 1440,
+    "height": 900,
+    "parent": 1189180
+  },
+  "homepage": {
+    "id": 1189276,
+    "title": "Civic Hearth homepage preview",
+    "url": "https://r2.gauravtiwari.org/wp-content/uploads/2026/11/civic-hearth-homepage-preview-clean.png",
+    "mime_type": "image/png",
+    "alt": "Civic Hearth homepage search and popular services",
+    "caption": "",
+    "width": 1440,
+    "height": 1000,
+    "parent": 1189180
+  },
+  "service": {
+    "id": 1189277,
+    "title": "Civic Hearth service preview",
+    "url": "https://r2.gauravtiwari.org/wp-content/uploads/2026/11/civic-hearth-service-preview-clean.png",
+    "mime_type": "image/png",
+    "alt": "Civic Hearth service page with a clear reading width and headings",
+    "caption": "",
+    "width": 1440,
+    "height": 900,
+    "parent": 1189180
+  },
+  "news": {
+    "id": 1189278,
+    "title": "Civic Hearth news preview",
+    "url": "https://r2.gauravtiwari.org/wp-content/uploads/2026/11/civic-hearth-news-preview-clean.png",
+    "mime_type": "image/png",
+    "alt": "Civic Hearth news archive with three community post cards",
+    "caption": "",
+    "width": 1440,
+    "height": 900,
+    "parent": 1189180
+  },
+  "customizer": {
+    "id": 1189274,
+    "title": "Civic Hearth customizer preview",
+    "url": "https://r2.gauravtiwari.org/wp-content/uploads/2026/11/civic-hearth-customizer-preview-updated.png",
+    "mime_type": "image/png",
+    "alt": "Civic Hearth colors and typography controls in the WordPress Customizer",
+    "caption": "",
+    "width": 1440,
+    "height": 900,
+    "parent": 1189180
+  }
+}
