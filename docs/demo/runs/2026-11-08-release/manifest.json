@@ -1,0 +1,124 @@
+{
+  "site_id": 22,
+  "url": "https://demo.gatilab.com/civic-hearth/",
+  "source_release": "https://github.com/wpgaurav/civic-hearth/releases/tag/v1.0.0",
+  "package_sha256": "b2768da2194fdf97d4df2fc0b55ac58fce3b5600b0aafde8812d4b41b2e85a08",
+  "objects": {
+    "bins-and-recycling": 3,
+    "housing-and-support": 4,
+    "parking-and-travel": 5,
+    "families-and-education": 6,
+    "health-and-wellbeing": 7,
+    "planning-and-places": 8,
+    "libraries-and-learning": 9,
+    "parks-and-community-spaces": 10,
+    "your-community": 11,
+    "home": 12,
+    "services": 13,
+    "news": 14,
+    "about": 15,
+    "contact": 16,
+    "accessibility": 17,
+    "examples": 18,
+    "library-community": 19,
+    "shared-spaces": 21,
+    "greener-neighborhood": 23
+  },
+  "noindex": true,
+  "verification": {
+    "noindex": "noindex, nofollow",
+    "light": {
+      "violations": [],
+      "incomplete": []
+    },
+    "links": [
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/#main-content",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/?s=",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/services/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/bins-and-recycling/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/housing-and-support/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/libraries-and-learning/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/news/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/about/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/examples/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/parking-and-travel/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/families-and-education/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/health-and-wellbeing/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/planning-and-places/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/parks-and-community-spaces/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/your-community/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/2026/11/08/greener-neighborhood/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/2026/11/08/shared-spaces/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/2026/11/08/library-community/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/contact/",
+        "status": 200
+      },
+      {
+        "url": "https://demo.gatilab.com/civic-hearth/accessibility/",
+        "status": 200
+      }
+    ],
+    "submenuOpens": true,
+    "escapeCloses": true,
+    "searchWorks": true
+  }
+}
