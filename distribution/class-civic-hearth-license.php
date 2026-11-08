@@ -4,7 +4,7 @@
  * Included only in the direct-download distribution, never WordPress.org builds.
  * The key gates theme updates only; every theme feature works without it.
  *
- * @package Civic Hearth
+ * @package Civic_Hearth
  * @license GPL-2.0-or-later
  */
 
@@ -53,7 +53,13 @@ final class Civic_Hearth_License {
 		$data = get_option( self::OPTION, array() );
 		return wp_parse_args(
 			is_array( $data ) ? $data : array(),
-			array( 'key' => '', 'status' => 'unregistered', 'activation_hash' => '', 'expires' => '', 'checked_at' => 0 )
+			array(
+				'key'             => '',
+				'status'          => 'unregistered',
+				'activation_hash' => '',
+				'expires'         => '',
+				'checked_at'      => 0,
+			)
 		);
 	}
 
@@ -73,7 +79,11 @@ final class Civic_Hearth_License {
 				'sslverify'           => true,
 				'limit_response_size' => 131072,
 				'body'                => array_merge(
-					array( 'item_id' => self::PRODUCT_ID, 'site_url' => home_url( '/' ), 'current_version' => self::version() ),
+					array(
+						'item_id'         => self::PRODUCT_ID,
+						'site_url'        => home_url( '/' ),
+						'current_version' => self::version(),
+					),
 					$params
 				),
 			)
@@ -159,7 +169,13 @@ final class Civic_Hearth_License {
 		if ( empty( $state['key'] ) ) {
 			return new WP_Error( 'civic_hearth_license_missing', __( 'No license key is saved.', 'civic-hearth' ) );
 		}
-		$data = self::request( 'deactivate_license', array( 'license_key' => $state['key'], 'activation_hash' => $state['activation_hash'] ) );
+		$data = self::request(
+			'deactivate_license',
+			array(
+				'license_key'     => $state['key'],
+				'activation_hash' => $state['activation_hash'],
+			)
+		);
 		if ( is_wp_error( $data ) ) {
 			return $data;
 		}
@@ -261,7 +277,14 @@ final class Civic_Hearth_License {
 			'check'      => __( 'License verified.', 'civic-hearth' ),
 		);
 		$message = is_wp_error( $result ) ? $result->get_error_message() : $labels[ $action ];
-		set_transient( self::NOTICE . '_' . get_current_user_id(), array( 'error' => is_wp_error( $result ), 'message' => $message ), MINUTE_IN_SECONDS );
+		set_transient(
+			self::NOTICE . '_' . get_current_user_id(),
+			array(
+				'error'   => is_wp_error( $result ),
+				'message' => $message,
+			),
+			MINUTE_IN_SECONDS
+		);
 		wp_safe_redirect( admin_url( 'themes.php?page=' . self::PAGE ) );
 		exit;
 	}

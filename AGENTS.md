@@ -1,6 +1,6 @@
 # Civic Hearth
 
-The installable WordPress.org source lives in `theme/`. Keep this source free of the FluentCart license client and Update URI. Build the store package by injecting `distribution/gt-license.php` through `distribution/build.py`.
+The installable WordPress.org source lives in `theme/`. Keep this source free of the FluentCart license client and Update URI. Build the store package by injecting `distribution/class-civic-hearth-license.php` through `distribution/build.py`.
 
 - Prefix PHP functions with `civic_hearth_`; use the `civic-hearth` text domain.
 - Preserve native block serialization. Validate patterns in an actual WordPress block editor after changes.

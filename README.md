@@ -16,7 +16,7 @@ Upload a release ZIP through Appearance > Themes. Create a page using the Civic 
 
 ## Distribution
 
-`theme/` is the clean WordPress.org source. The store distribution adds a free license updater from `distribution/gt-license.php`; all theme features work without activation. The free lifetime key supports unlimited websites and enables update checks through FluentCart.
+`theme/` is the clean WordPress.org source. The store distribution adds a free license updater from `distribution/class-civic-hearth-license.php`; all theme features work without activation. The free lifetime key supports unlimited websites and enables update checks through FluentCart.
 
 Run `python3 distribution/build.py --channel all` to build both ZIPs. The direct package is named `civic-hearth-VERSION-licensed.zip`. Do not add its updater or Update URI to the canonical `theme/` directory.
 
