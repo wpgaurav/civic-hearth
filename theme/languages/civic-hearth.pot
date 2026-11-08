@@ -1,0 +1,999 @@
+# Copyright (C) 2026 Gaurav Tiwari
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Civic Hearth 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/civic-hearth\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-07T15:26:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: civic-hearth\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/customizer.php:99
+#: inc/patterns.php:12
+msgid "Civic Hearth"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A welcoming home for public life. Civic Hearth is a hybrid theme for councils, libraries, charities, and community organizations. It combines classic PHP templates and the Customizer with native block patterns, a shared theme.json design system, locally hosted Atkinson Hyperlegible fonts, responsive navigation, and clear service layouts."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Gaurav Tiwari"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://gauravtiwari.org/"
+msgstr ""
+
+#: 404.php:13
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:13
+msgid "Let us help you find your way."
+msgstr ""
+
+#: 404.php:14
+msgid "This page may have moved, or the address may have been typed incorrectly. Search the website or return to the homepage."
+msgstr ""
+
+#: 404.php:16
+msgid "Go to the homepage"
+msgstr ""
+
+#: comments.php:13
+msgid "Comments"
+msgstr ""
+
+#. translators: %s: The number of comments.
+#: comments.php:20
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: 1: Current year, 2: Site name.
+#: footer.php:36
+#, php-format
+msgid "Copyright %1$s %2$s."
+msgstr ""
+
+#: footer.php:46
+msgid "Footer navigation"
+msgstr ""
+
+#: header.php:19
+msgid "Skip to main content"
+msgstr ""
+
+#: header.php:33
+msgid "Utility links"
+msgstr ""
+
+#: header.php:46
+#: patterns/service-hero.php:38
+#: searchform.php:15
+msgid "Search"
+msgstr ""
+
+#: header.php:47
+msgid "Menu"
+msgstr ""
+
+#: header.php:51
+#: inc/setup.php:35
+msgid "Primary navigation"
+msgstr ""
+
+#: header.php:67
+#: inc/customizer.php:107
+msgid "Site notice"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Design and layout settings for your community website."
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Colors and typography"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid "Layout and news"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Header and footer"
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "Color scheme"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Light"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "Follow visitor device"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Accent palette"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Civic blue"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Community teal"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Heritage brick"
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Body text size (px)"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Reading width (px)"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Wide layout width (px)"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "News grid columns on desktop"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Two"
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Three"
+msgstr ""
+
+#: inc/customizer.php:194
+#: inc/setup.php:82
+msgid "Post and archive sidebar"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "The sidebar appears only when it contains widgets."
+msgstr ""
+
+#: inc/customizer.php:199
+msgid "No sidebar"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Show post date and author"
+msgstr ""
+
+#: inc/customizer.php:213
+msgid "Show post excerpts in news grids"
+msgstr ""
+
+#: inc/customizer.php:220
+msgid "Notice heading"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Leave this blank to hide the notice. Use a dedicated alert service for emergency delivery."
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Notice text"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Notice link label"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "Notice link URL"
+msgstr ""
+
+#: inc/customizer.php:249
+msgid "Show the site tagline in the header"
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Footer text"
+msgstr ""
+
+#: inc/customizer.php:257
+msgid "Leave blank for the current year and site name."
+msgstr ""
+
+#: inc/design.php:64
+msgid "Canvas"
+msgstr ""
+
+#: inc/design.php:65
+msgid "Warm paper"
+msgstr ""
+
+#: inc/design.php:66
+msgid "Quiet fill"
+msgstr ""
+
+#: inc/design.php:67
+msgid "Heading ink"
+msgstr ""
+
+#: inc/design.php:68
+msgid "Body text"
+msgstr ""
+
+#: inc/design.php:69
+msgid "Secondary text"
+msgstr ""
+
+#: inc/design.php:70
+msgid "Border"
+msgstr ""
+
+#: inc/design.php:71
+msgid "Control border"
+msgstr ""
+
+#: inc/design.php:72
+msgid "Masthead"
+msgstr ""
+
+#: inc/design.php:73
+msgid "On masthead"
+msgstr ""
+
+#: inc/design.php:74
+msgid "Notice"
+msgstr ""
+
+#: inc/design.php:75
+msgid "Accent"
+msgstr ""
+
+#: inc/design.php:76
+msgid "Soft accent"
+msgstr ""
+
+#: inc/design.php:77
+msgid "On accent"
+msgstr ""
+
+#: inc/design.php:100
+msgid "Small"
+msgstr ""
+
+#: inc/design.php:106
+msgid "Body"
+msgstr ""
+
+#: inc/design.php:112
+msgid "Lead"
+msgstr ""
+
+#: inc/design.php:118
+msgid "Section title"
+msgstr ""
+
+#: inc/design.php:127
+msgid "Page title"
+msgstr ""
+
+#: inc/design.php:136
+msgid "Display"
+msgstr ""
+
+#: inc/patterns.php:17
+msgid "Civic card"
+msgstr ""
+
+#: inc/patterns.php:24
+msgid "Information notice"
+msgstr ""
+
+#: inc/setup.php:36
+msgid "Header utility links"
+msgstr ""
+
+#: inc/setup.php:37
+msgid "Footer links"
+msgstr ""
+
+#: inc/setup.php:83
+msgid "Footer column one"
+msgstr ""
+
+#: inc/setup.php:84
+msgid "Footer column two"
+msgstr ""
+
+#: inc/setup.php:85
+msgid "Footer column three"
+msgstr ""
+
+#: inc/setup.php:92
+msgid "Add blocks or widgets to this area."
+msgstr ""
+
+#. translators: %s: The linked post author name.
+#: inc/template-tags.php:44
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: index.php:19
+msgid "News and updates"
+msgstr ""
+
+#: index.php:37
+#: search.php:38
+msgid "Previous"
+msgstr ""
+
+#: index.php:38
+#: search.php:39
+msgid "Next"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Civic homepage"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr ""
+
+#: page.php:23
+msgid "Page sections"
+msgstr ""
+
+#: page.php:32
+msgid "Edit this page"
+msgstr ""
+
+#: patterns/civic-homepage.php
+msgctxt "Pattern title"
+msgid "Civic homepage"
+msgstr ""
+
+#: patterns/civic-homepage.php
+msgctxt "Pattern description"
+msgid "A complete civic homepage. Use with the Civic homepage page template and replace service search links with published page links."
+msgstr ""
+
+#: patterns/common-questions.php
+msgctxt "Pattern title"
+msgid "Common questions"
+msgstr ""
+
+#: patterns/common-questions.php
+msgctxt "Pattern description"
+msgid "Native Details blocks for common service questions."
+msgstr ""
+
+#: patterns/common-questions.php:20
+msgid "A few useful answers"
+msgstr ""
+
+#: patterns/common-questions.php:23
+msgid "How do I find the right service?"
+msgstr ""
+
+#: patterns/common-questions.php:24
+msgid "Use the search at the top of the page, or browse the services directory. Each service page explains what you can do and who to contact."
+msgstr ""
+
+#: patterns/common-questions.php:29
+msgid "Can I get help using this website?"
+msgstr ""
+
+#: patterns/common-questions.php:30
+msgid "Contact the organization to ask for help finding information or using an online service."
+msgstr ""
+
+#: patterns/common-questions.php:35
+msgid "How can I get involved locally?"
+msgstr ""
+
+#: patterns/common-questions.php:36
+msgid "Look for community groups, volunteering opportunities, and local consultations. Your service pages can point people to the right place."
+msgstr ""
+
+#: patterns/community-actions.php
+msgctxt "Pattern title"
+msgid "Community action cards"
+msgstr ""
+
+#: patterns/community-actions.php
+msgctxt "Pattern description"
+msgid "Three simple paths to participation, volunteering, and community groups."
+msgstr ""
+
+#: patterns/community-actions.php:20
+msgid "A stronger community starts with you."
+msgstr ""
+
+#: patterns/community-actions.php:23
+msgid "There are many ways to make a difference, meet your neighbors, and help shape what happens next."
+msgstr ""
+
+#: patterns/community-actions.php:32
+#: patterns/service-directory.php:141
+msgid "Have your say"
+msgstr ""
+
+#: patterns/community-actions.php:35
+msgid "Share your views on local plans and the decisions that affect your area."
+msgstr ""
+
+#: patterns/community-actions.php:38
+msgid "View consultations"
+msgstr ""
+
+#: patterns/community-actions.php:49
+msgid "Lend a hand"
+msgstr ""
+
+#: patterns/community-actions.php:52
+msgid "Find volunteering opportunities and put your skills to work close to home."
+msgstr ""
+
+#: patterns/community-actions.php:55
+msgid "Find a volunteering opportunity"
+msgstr ""
+
+#: patterns/community-actions.php:66
+msgid "Find your people"
+msgstr ""
+
+#: patterns/community-actions.php:69
+msgid "Discover groups, shared spaces, and activities in your neighborhood."
+msgstr ""
+
+#: patterns/community-actions.php:72
+msgid "Explore community groups"
+msgstr ""
+
+#: patterns/contact-panel.php
+msgctxt "Pattern title"
+msgid "Contact and access support"
+msgstr ""
+
+#: patterns/contact-panel.php
+msgctxt "Pattern description"
+msgid "A contact section without fabricated phone numbers or nonfunctional forms."
+msgstr ""
+
+#: patterns/contact-panel.php:24
+msgid "We are here to help."
+msgstr ""
+
+#: patterns/contact-panel.php:27
+msgid "Not sure where to start? Find the right person to speak to, or see how to visit us."
+msgstr ""
+
+#: patterns/contact-panel.php:30
+#: patterns/information-notice.php:24
+#: patterns/service-page.php:49
+msgid "Find contact information"
+msgstr ""
+
+#: patterns/contact-panel.php:39
+msgid "Help in a way that works for you"
+msgstr ""
+
+#: patterns/contact-panel.php:42
+msgid "Ask about information in another format, language support, or help accessing a service."
+msgstr ""
+
+#: patterns/contact-panel.php:45
+msgid "Find accessibility information"
+msgstr ""
+
+#: patterns/information-notice.php
+msgctxt "Pattern title"
+msgid "Information notice"
+msgstr ""
+
+#: patterns/information-notice.php
+msgctxt "Pattern description"
+msgid "An inline information panel with a clear next action."
+msgstr ""
+
+#: patterns/information-notice.php:18
+#: patterns/service-page.php:43
+msgid "Need a little help getting started?"
+msgstr ""
+
+#: patterns/information-notice.php:21
+#: patterns/service-page.php:46
+msgid "If you cannot find what you need online, our team can help you find the right service."
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest community news"
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern description"
+msgid "Three real posts from a native Query Loop. Empty sites show a useful message."
+msgstr ""
+
+#: patterns/latest-news.php:20
+msgid "From your community"
+msgstr ""
+
+#: patterns/latest-news.php:23
+msgid "The latest news, announcements, and local updates."
+msgstr ""
+
+#: patterns/latest-news.php:35
+msgid "Community news will appear here when posts are published."
+msgstr ""
+
+#: patterns/service-directory.php
+msgctxt "Pattern title"
+msgid "Service directory"
+msgstr ""
+
+#: patterns/service-directory.php
+msgctxt "Pattern description"
+msgid "Nine editable service cards with working site-search links."
+msgstr ""
+
+#: patterns/service-directory.php:20
+msgid "Services and support"
+msgstr ""
+
+#: patterns/service-directory.php:23
+msgid "Find the information and help you need, all in one place."
+msgstr ""
+
+#: patterns/service-directory.php:30
+#: patterns/service-hero.php:56
+msgid "Bins and recycling"
+msgstr ""
+
+#: patterns/service-directory.php:33
+msgid "Collection days, recycling advice, and help with household waste."
+msgstr ""
+
+#: patterns/service-directory.php:38
+msgid "Check collection days"
+msgstr ""
+
+#: patterns/service-directory.php:41
+msgid "Report a missed collection"
+msgstr ""
+
+#: patterns/service-directory.php:50
+#: patterns/service-hero.php:59
+msgid "Housing and support"
+msgstr ""
+
+#: patterns/service-directory.php:53
+msgid "Find housing advice, local support, and a place to turn when you need help."
+msgstr ""
+
+#: patterns/service-directory.php:58
+msgid "Get housing advice"
+msgstr ""
+
+#: patterns/service-directory.php:61
+msgid "Find local support"
+msgstr ""
+
+#: patterns/service-directory.php:70
+#: patterns/service-hero.php:62
+msgid "Parking and travel"
+msgstr ""
+
+#: patterns/service-directory.php:73
+msgid "Parking information, permits, public transport, and getting around."
+msgstr ""
+
+#: patterns/service-directory.php:78
+msgid "Find parking information"
+msgstr ""
+
+#: patterns/service-directory.php:81
+msgid "Plan a local journey"
+msgstr ""
+
+#: patterns/service-directory.php:90
+msgid "Families and education"
+msgstr ""
+
+#: patterns/service-directory.php:93
+msgid "School information, family activities, and support for young people."
+msgstr ""
+
+#: patterns/service-directory.php:98
+msgid "Find school information"
+msgstr ""
+
+#: patterns/service-directory.php:101
+msgid "Explore family support"
+msgstr ""
+
+#: patterns/service-directory.php:110
+msgid "Health and wellbeing"
+msgstr ""
+
+#: patterns/service-directory.php:113
+msgid "Local care, wellbeing activities, and help to live independently."
+msgstr ""
+
+#: patterns/service-directory.php:118
+msgid "Find wellbeing support"
+msgstr ""
+
+#: patterns/service-directory.php:121
+msgid "Explore care services"
+msgstr ""
+
+#: patterns/service-directory.php:130
+msgid "Planning and places"
+msgstr ""
+
+#: patterns/service-directory.php:133
+msgid "Find out about planning, building, and changes in your neighborhood."
+msgstr ""
+
+#: patterns/service-directory.php:138
+msgid "View planning information"
+msgstr ""
+
+#: patterns/service-directory.php:150
+#: patterns/service-hero.php:65
+msgid "Libraries and learning"
+msgstr ""
+
+#: patterns/service-directory.php:153
+msgid "Books, digital resources, and opportunities to learn something new."
+msgstr ""
+
+#: patterns/service-directory.php:158
+msgid "Find your library"
+msgstr ""
+
+#: patterns/service-directory.php:161
+msgid "Explore learning opportunities"
+msgstr ""
+
+#: patterns/service-directory.php:170
+msgid "Parks and community spaces"
+msgstr ""
+
+#: patterns/service-directory.php:173
+msgid "Discover parks, shared spaces, and places to meet in your area."
+msgstr ""
+
+#: patterns/service-directory.php:178
+msgid "Explore local parks"
+msgstr ""
+
+#: patterns/service-directory.php:181
+msgid "Find a community space"
+msgstr ""
+
+#: patterns/service-directory.php:190
+msgid "Your community"
+msgstr ""
+
+#: patterns/service-directory.php:193
+msgid "Local news, volunteering, community groups, and ways to get involved."
+msgstr ""
+
+#: patterns/service-directory.php:198
+msgid "Find community groups"
+msgstr ""
+
+#: patterns/service-directory.php:201
+msgid "Explore volunteering"
+msgstr ""
+
+#: patterns/service-hero.php
+msgctxt "Pattern title"
+msgid "Service search hero"
+msgstr ""
+
+#: patterns/service-hero.php
+msgctxt "Pattern description"
+msgid "A search-led civic hero with a popular services panel."
+msgstr ""
+
+#: patterns/service-hero.php:24
+msgid "Here for our community"
+msgstr ""
+
+#: patterns/service-hero.php:27
+msgid "What can we help you with today?"
+msgstr ""
+
+#: patterns/service-hero.php:30
+msgid "Find local services, get support, and take part in the life of your community."
+msgstr ""
+
+#: patterns/service-hero.php:37
+msgid "Search services and information"
+msgstr ""
+
+#: patterns/service-hero.php:51
+msgid "Popular services"
+msgstr ""
+
+#: patterns/service-page.php
+msgctxt "Pattern title"
+msgid "Service information page"
+msgstr ""
+
+#: patterns/service-page.php
+msgctxt "Pattern description"
+msgid "A plain-language service page structure for use below the theme-supplied page title."
+msgstr ""
+
+#: patterns/service-page.php:16
+msgid "Use this page to explain the service clearly: who it is for, what people need, and what happens next."
+msgstr ""
+
+#: patterns/service-page.php:19
+msgid "Before you begin"
+msgstr ""
+
+#: patterns/service-page.php:22
+msgid "Bring the information listed below so you can complete your request."
+msgstr ""
+
+#: patterns/service-page.php:27
+msgid "Find the documents you need"
+msgstr ""
+
+#: patterns/service-page.php:30
+msgid "Check eligibility and fees"
+msgstr ""
+
+#: patterns/service-page.php:35
+msgid "How to use this service"
+msgstr ""
+
+#: patterns/service-page.php:38
+msgid "Explain the steps, expected response time, and where people can get help. Replace this text with your published service information."
+msgstr ""
+
+#. translators: %s: The visitor's search term.
+#: search.php:17
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: search.php:19
+#: searchform.php:12
+msgid "Search this website"
+msgstr ""
+
+#: sidebar.php:13
+msgid "Related information"
+msgstr ""
+
+#: single.php:22
+msgid "All news"
+msgstr ""
+
+#: single.php:35
+msgid "Post sections"
+msgstr ""
+
+#: single.php:45
+msgid "Categories: "
+msgstr ""
+
+#: single.php:46
+msgid "Topics: "
+msgstr ""
+
+#: single.php:47
+msgid "Edit this post"
+msgstr ""
+
+#: single.php:52
+msgid "Previous post"
+msgstr ""
+
+#: single.php:53
+msgid "Next post"
+msgstr ""
+
+#: template-parts/content-card.php:19
+msgid "Untitled"
+msgstr ""
+
+#: template-parts/content-none.php:11
+msgid "Nothing found yet"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Try fewer words, a service name, or a different spelling."
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "There are no published posts to display here yet."
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Canvas"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Warm paper"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Quiet fill"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Heading ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Body text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Control border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Masthead"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "On masthead"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Notice"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Soft accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "On accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "8"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "16"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "24"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "32"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "48"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "72"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "96"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Atkinson Hyperlegible Next"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Atkinson Hyperlegible Mono"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Lead"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Section title"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Page title"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display"
+msgstr ""

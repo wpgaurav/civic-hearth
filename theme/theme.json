@@ -1,0 +1,306 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1152px"
+    },
+    "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "palette": [
+        {
+          "slug": "base",
+          "name": "Canvas",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "paper",
+          "name": "Warm paper",
+          "color": "#f7f5f0"
+        },
+        {
+          "slug": "well",
+          "name": "Quiet fill",
+          "color": "#f0ede6"
+        },
+        {
+          "slug": "ink",
+          "name": "Heading ink",
+          "color": "#0c2340"
+        },
+        {
+          "slug": "body",
+          "name": "Body text",
+          "color": "#1b2b3f"
+        },
+        {
+          "slug": "muted",
+          "name": "Secondary text",
+          "color": "#3b4a5e"
+        },
+        {
+          "slug": "line",
+          "name": "Border",
+          "color": "#c9d0d9"
+        },
+        {
+          "slug": "control",
+          "name": "Control border",
+          "color": "#2e4057"
+        },
+        {
+          "slug": "mast",
+          "name": "Masthead",
+          "color": "#0c2340"
+        },
+        {
+          "slug": "on-mast",
+          "name": "On masthead",
+          "color": "#ffffff"
+        },
+        {
+          "slug": "notice",
+          "name": "Notice",
+          "color": "#fff5d6"
+        },
+        {
+          "slug": "accent",
+          "name": "Accent",
+          "color": "#174a87"
+        },
+        {
+          "slug": "accent-soft",
+          "name": "Soft accent",
+          "color": "#e7eef7"
+        },
+        {
+          "slug": "on-accent",
+          "name": "On accent",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    "spacing": {
+      "units": [
+        "px",
+        "rem",
+        "em",
+        "%",
+        "vw",
+        "vh"
+      ],
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "slug": "10",
+          "name": "8",
+          "size": "0.5rem"
+        },
+        {
+          "slug": "20",
+          "name": "16",
+          "size": "1rem"
+        },
+        {
+          "slug": "30",
+          "name": "24",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "40",
+          "name": "32",
+          "size": "2rem"
+        },
+        {
+          "slug": "50",
+          "name": "48",
+          "size": "3rem"
+        },
+        {
+          "slug": "60",
+          "name": "72",
+          "size": "4.5rem"
+        },
+        {
+          "slug": "70",
+          "name": "96",
+          "size": "6rem"
+        }
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "defaultFontSizes": false,
+      "lineHeight": true,
+      "fontFamilies": [
+        {
+          "slug": "sans",
+          "name": "Atkinson Hyperlegible Next",
+          "fontFamily": "\"Atkinson Hyperlegible Next\", ui-sans-serif, system-ui, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Atkinson Hyperlegible Next",
+              "fontStyle": "normal",
+              "fontWeight": "200 800",
+              "fontDisplay": "swap",
+              "src": [
+                "file:./assets/fonts/AtkinsonHyperlegibleNext-Variable.woff2"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "mono",
+          "name": "Atkinson Hyperlegible Mono",
+          "fontFamily": "\"Atkinson Hyperlegible Mono\", ui-monospace, monospace",
+          "fontFace": [
+            {
+              "fontFamily": "Atkinson Hyperlegible Mono",
+              "fontStyle": "normal",
+              "fontWeight": "200 800",
+              "fontDisplay": "swap",
+              "src": [
+                "file:./assets/fonts/AtkinsonHyperlegibleMono-Variable.woff2"
+              ]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "name": "Small",
+          "size": "1rem",
+          "fluid": false
+        },
+        {
+          "slug": "medium",
+          "name": "Body",
+          "size": "1.125rem",
+          "fluid": false
+        },
+        {
+          "slug": "large",
+          "name": "Lead",
+          "size": "1.3125rem",
+          "fluid": false
+        },
+        {
+          "slug": "x-large",
+          "name": "Section title",
+          "size": "2.25rem",
+          "fluid": {
+            "min": "1.75rem",
+            "max": "2.25rem"
+          }
+        },
+        {
+          "slug": "xx-large",
+          "name": "Page title",
+          "size": "3rem",
+          "fluid": {
+            "min": "2.125rem",
+            "max": "3rem"
+          }
+        },
+        {
+          "slug": "display",
+          "name": "Display",
+          "size": "3.5rem",
+          "fluid": {
+            "min": "2.375rem",
+            "max": "3.5rem"
+          }
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|base",
+      "text": "var:preset|color|body"
+    },
+    "spacing": {
+      "blockGap": "1.5rem"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|sans",
+      "fontSize": "var:preset|font-size|medium",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "heading": {
+        "color": {
+          "text": "var:preset|color|ink"
+        },
+        "typography": {
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var:preset|color|accent"
+        },
+        "typography": {
+          "textDecoration": "underline"
+        }
+      },
+      "button": {
+        "color": {
+          "background": "var:preset|color|accent",
+          "text": "var:preset|color|on-accent"
+        },
+        "border": {
+          "radius": "4px"
+        },
+        "typography": {
+          "fontWeight": "700"
+        },
+        "spacing": {
+          "padding": {
+            "top": "0.625rem",
+            "bottom": "0.625rem",
+            "left": "1.25rem",
+            "right": "1.25rem"
+          }
+        }
+      }
+    },
+    "blocks": {
+      "core/code": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|mono"
+        }
+      },
+      "core/post-title": {
+        "typography": {
+          "fontSize": "1.5rem",
+          "lineHeight": "1.3"
+        }
+      },
+      "core/post-date": {
+        "typography": {
+          "fontSize": "1rem"
+        }
+      },
+      "core/quote": {
+        "border": {
+          "left": {
+            "color": "var:preset|color|accent",
+            "width": "4px",
+            "style": "solid"
+          }
+        },
+        "spacing": {
+          "padding": {
+            "left": "1.5rem"
+          }
+        }
+      }
+    }
+  }
+}

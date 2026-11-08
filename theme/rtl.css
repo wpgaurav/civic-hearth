@@ -1,0 +1,4 @@
+/* Logical properties handle layout direction. Physical control corners are mirrored here. */
+.ch-search-form input, .wp-block-search__input { border-radius: 0 4px 4px 0; }
+.ch-search-form button, .wp-block-search__button { border-radius: 4px 0 0 4px; }
+.ch-back-link .ch-icon { transform: scaleX(-1); }

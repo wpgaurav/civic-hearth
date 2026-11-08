@@ -1,0 +1,12 @@
+/* Editor canvas parity. Copyright 2026 Gaurav Tiwari. GPL-2.0-or-later. */
+.editor-styles-wrapper { font-family: var(--ch-font); background: var(--ch-base); color: var(--ch-body); }
+.editor-styles-wrapper .wp-block { max-width: var(--ch-content); }
+.editor-styles-wrapper .wp-block[data-align="wide"] { max-width: var(--ch-wide); }
+.editor-styles-wrapper .wp-block[data-align="full"] { max-width: none; }
+.editor-styles-wrapper .ch-section-inner, .editor-styles-wrapper .ch-section-inner > .block-editor-inner-blocks > .block-editor-block-list__layout { max-width: var(--ch-wide); margin-inline: auto; }
+.editor-styles-wrapper .ch-section-inner .wp-block { max-width: none; }
+.editor-styles-wrapper .ch-card, .editor-styles-wrapper .is-style-civic-card, .editor-styles-wrapper .ch-quick-panel { height: auto; }
+.editor-styles-wrapper .ch-hero h1 { max-width: 16ch; }
+.editor-styles-wrapper .wp-block-post-template { padding-inline-start: 0; }
+.editor-styles-wrapper .ch-service-grid > .block-editor-inner-blocks > .block-editor-block-list__layout { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+.editor-styles-wrapper a { cursor: text; }
