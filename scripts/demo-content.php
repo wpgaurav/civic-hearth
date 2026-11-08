@@ -68,7 +68,12 @@ foreach ( $expected as $id => $hash ) { if ( hash( 'sha256', get_post_field( 'po
 foreach ( array( 'primary' => array( 'services', 'news', 'about', 'examples' ), 'footer' => array( 'about', 'accessibility', 'examples' ) ) as $location => $keys ) {
 	$menu = wp_get_nav_menu_object( 'Civic Hearth ' . $location );
 	$menu_id = $menu ? $menu->term_id : wp_create_nav_menu( 'Civic Hearth ' . $location );
-	if ( ! $menu ) { foreach ( $keys as $key ) { wp_update_nav_menu_item( $menu_id, 0, array( 'menu-item-object-id' => $map[ $key ], 'menu-item-object' => 'page', 'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ) ); } }
+	$items = wp_get_nav_menu_items( $menu_id );
+	foreach ( $keys as $key ) {
+		$found = false;
+		foreach ( $items as $item ) { if ( (int) $item->object_id === (int) $map[ $key ] ) { $found = true; } }
+		if ( ! $found ) { wp_update_nav_menu_item( $menu_id, 0, array( 'menu-item-object-id' => $map[ $key ], 'menu-item-object' => 'page', 'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ) ); }
+	}
 	$locations[ $location ] = $menu_id;
 }
 set_theme_mod( 'nav_menu_locations', $locations );
@@ -77,7 +82,7 @@ $services_parent = 0;
 foreach ( $primary_items as $item ) { if ( (int) $item->object_id === (int) $map['services'] ) { $services_parent = $item->ID; } }
 foreach ( array( 'bins-and-recycling', 'housing-and-support', 'libraries-and-learning' ) as $key ) {
 	$found = false;
-	foreach ( $primary_items as $item ) { if ( (int) $item->object_id === (int) $map[ $key ] ) { $found = true; } }
+	foreach ( $primary_items as $item ) { if ( (int) $item->object_id === (int) $map[ $key ] ) { $found = true; if ( (int) $item->menu_item_parent !== (int) $services_parent ) { wp_update_nav_menu_item( $locations['primary'], $item->ID, array( 'menu-item-parent-id' => $services_parent, 'menu-item-object-id' => $map[ $key ], 'menu-item-object' => 'page', 'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ) ); } } }
 	if ( ! $found ) { wp_update_nav_menu_item( $locations['primary'], 0, array( 'menu-item-parent-id' => $services_parent, 'menu-item-object-id' => $map[ $key ], 'menu-item-object' => 'page', 'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ) ); }
 }
 update_option( 'blogdescription', 'A welcoming home for public life.' );
